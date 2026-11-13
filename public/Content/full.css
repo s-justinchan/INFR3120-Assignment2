@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+nav
+{
+    background:linear-gradient(to right,#7766E3, #A066E3, transparent 100%);
+    margin-right: 300px;
+}
+
+h1
+{
+    color:#A066E3;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2
+{
+    color:#A066E3;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p
+{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#657CE2;
+}
+
+body
+{
+    background:linear-gradient(to right, #8EB9FC, #AA8DFC);
+}
+
+.walle
+{
+    float:left;
+    width:30%;
+}
+
+.wallep
+{
+    padding-bottom: 60px;
+}
+
+.house
+{
+    float:left;
+    width:33%;
+}
+
+.renovationp
+{
+    padding-bottom: 70px;
+}
+
+#roboth
+{
+    padding-top: 10px;
+}
+
+#househ
+{
+    padding-top: 20px;
+}
+
+.net
+{
+    float:left;
+    width:45%;
+}
+
+.networkp
+{
+    padding-top: 20px;
+    padding-bottom: 80px;
+    font-size: 115%;
+}
+
+#networkh
+{
+    padding-top: 30px;
+}
+
+.bear
+{
+    width:27%;
+    float:left;
+}
+
+#bearh
+{
+    padding-top: 30px;
+}
+
+.projects
+{
+    clear:both;
+}
+
+.bearp
+{
+    font-size: 130%;
+}

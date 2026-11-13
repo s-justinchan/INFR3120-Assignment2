@@ -10,7 +10,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">INFR3120</a>
+        <a class="navbar-brand" href="/">Assignment 02</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -24,38 +24,29 @@
                 <% } %>
               </li>
               <li class="nav-item">
-                <% if (title == "About Us") {%>
-                <a class="nav-link active" aria-current="page" href="/aboutus"><i class="fa-solid fa-circle-info fa-lg"></i> About Us</a>
+                <% if (title == "About Me") {%>
+                <a class="nav-link active" aria-current="page" href="/about"><i class="fa-solid fa-circle-info fa-lg"></i> About Me</a>
                 <% } else {%>
-                <a class="nav-link" aria-current="page" href="/aboutus"><i class="fa-solid fa-circle-info"></i> About Us</a>
+                <a class="nav-link" aria-current="page" href="/about"><i class="fa-solid fa-circle-info"></i> About Me</a>
                 <% } %>
               </li>
               <li class="nav-item">
-                <% if (title == "Contact Us") {%>
+                <% if (title == "Contact Me") {%>
                 <a class="nav-link active" aria-current="page" href="/contact"><i class="fa-solid fa-envelope fa-lg"></i> Contact</a>
                 <% } else {%>
                 <a class="nav-link" aria-current="page" href="/contact"><i class="fa-solid fa-envelope"></i> Contact</a>
                 <% } %>
               </li>
               <li class="nav-item">
-                <% if (title == "Products") {%>
-                <a class="nav-link active" aria-current="page" href="/products"><i class="fa-solid fa-screwdriver-wrench fa-lg"></i> Products</a>
+                <% if (title == "Projects") {%>
+                <a class="nav-link active" aria-current="page" href="/projects"><i class="fa-solid fa-screwdriver-wrench fa-lg"></i> Projects</a>
                 <% } else {%>
-                <a class="nav-link" aria-current="page" href="/products"><i class="fa-solid fa-screwdriver-wrench"></i> Products</a>
-                <% } %>
-              </li>
-              <li class="nav-item">
-                <% if (title == "Services") {%>
-                <a class="nav-link active" aria-current="page" href="/services"><i class="fa-solid fa-user-gear fa-lg"></i> Services</a>
-                <% } else {%>
-                <a class="nav-link" aria-current="page" href="/services"><i class="fa-solid fa-user-gear"></i> Services</a>
+                <a class="nav-link" aria-current="page" href="/projects"><i class="fa-solid fa-screwdriver-wrench"></i> Projects</a>
                 <% } %>
               </li>
           </div>
       </div>
     </nav>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
   </body>
   <script src="/Script/app.js"></script>
 </html>

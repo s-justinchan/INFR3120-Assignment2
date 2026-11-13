@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+nav
+{
+    background:linear-gradient(to right,#7766E3, #A066E3, transparent 20%);
+    margin-right: 300px;
+}
+
+h1
+{
+    color:#A066E3;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2
+{
+    color:#A066E3;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p
+{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#657CE2;
+}
+
+address
+{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#657CE2;
+}
+
+body
+{
+    background:linear-gradient(to right, #8EB9FC, #AA8DFC);
+}
+
+#roboth
+{
+    padding-top:5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.walle
+{
+    width:100%;
+}
+
+#househ
+{
+    padding-top:10px;
+    font-size:20px;
+    text-align: center;
+}
+
+.house
+{
+    width:100%;
+}
+
+#networkh
+{
+    font-size:20px;
+    text-align: center;
+}
+
+.net
+{
+    width:100%;
+}
+
+.bear
+{
+    width:100%;
+}
+
+#bearh
+{
+    font-size: 20px;
+    text-align: center;
+}
+
+.bearp,.wallep,.renovationp,.networkp
+{
+    text-align: center;
+}
+
+#contacth
+{
+    color: #A066E3;
+}
+
+.formlabels
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#657CE2;
+    font-weight: bold;
+}
+
+#abouth
+{
+    color: #A066E3;
+}
+
+#aboutp
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#657CE2;
+    font-weight: bold;
+}

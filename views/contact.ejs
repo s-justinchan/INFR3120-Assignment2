@@ -1,0 +1,42 @@
+<%- include('partials/header') %>
+
+<title><%= title %></title>
+
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/pagetitle') %>
+    <!--style sheet is for full-size monitor-->
+    <link href="/Content/full.css" rel="stylesheet" type="text/css" 
+    media="only screen and (min-width:960px)">
+    <!--style sheet is for tablet-->
+    <link href="/Content/tablets.css" rel="stylesheet" type="text/css"
+    media="only screen and (min-width:481px) and (max-width:959px)">
+    <!--style sheet is for smart phone-->
+    <link href="/Content/smartphones.css" rel="stylesheet" type="text/css"
+    media="only screen and (max-width:480px)">
+</head>
+
+<h1 id="contacth">Contact Me</h1>
+<form action=mailto:justin.chan2@ontariotechu.net ?subject=Signup Form method="post"
+    enctype="text/plain" name="form">
+    <p class="formlabels">
+        <label for="name">Name</label><br>
+        <input type="text" name="name" size="32">
+    </p>
+    <p class="formlabels">
+        <label for="email">Email</label><br>
+        <input type="text" name="email" size="32">
+    </p>
+    <p class="formlabels">
+        <label for="phone">Phone Number</label><br>
+        <input type="tel" name="phone" pattern="[0-9]{10}" required>
+    </p>
+    <p class="formlabels">
+        <label for="comments">Comments</label><br>
+        <textarea name="comments" cols="60" rows="6"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="Submit form"/>
+    </p>
+</form>

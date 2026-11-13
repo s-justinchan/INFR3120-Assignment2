@@ -1,0 +1,40 @@
+<%- include('partials/header') %>
+
+<title><%= title %></title>
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/pagetitle') %>
+    <!--style sheet is for full-size monitor-->
+    <link href="/Content/full.css" rel="stylesheet" type="text/css" 
+    media="only screen and (min-width:960px)">
+    <!--style sheet is for tablet-->
+    <link href="/Content/tablets.css" rel="stylesheet" type="text/css"
+    media="only screen and (min-width:481px) and (max-width:959px)">
+    <!--style sheet is for smart phone-->
+    <link href="/Content/smartphones.css" rel="stylesheet" type="text/css"
+    media="only screen and (max-width:480px)">
+</head>
+
+<h1 id="abouth">Introduction</h1>
+<p id="aboutp">
+    Hi, my name is Justin Chan and I am a 3rd year Networking and IT Security Student.
+    I switched to this program from Computer Science because I found Networking more interesting.
+    I am from Markham and my background is mainly Chinese and Filipino.
+    There were some Web Development courses that I took during my time in Computer Science, so I have some previous
+    knowledge about the Web and Script Programming course from the past.
+</p>
+<h1 id="abouth">Introduction Image</h1>
+<img src="/Assets/images/me.png" alt="Personal Image">
+<h1 id="abouth">Short Video</h1>
+<video 
+    controls
+    width="320" height="220" 
+    poster="/Assets/images/poster.png"
+    id="video"
+    preload
+    loop
+    autoplay muted>
+        <source src="/Assets/images/video.mp4" type="video/mp4">
+        <source src="/Assets/images/video.ogv" type="video/ogg">
+</video>

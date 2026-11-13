@@ -3,32 +3,37 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'INFR3120' });
+  res.render('home', { title: 'Home', 
+                      pageheader: 'Home Page'
+  });
 });
 
 /* GET home page. */
 router.get('/home', function(req, res, next) {
-  res.render('index', { title: 'Home' });
+  res.render('home', { title: 'Home',
+                      pageheader: 'Home Page'
+   });
 });
 
-/* GET about us page. */
-router.get('/aboutus', function(req, res, next) {
-  res.render('index', { title: 'About Us' });
+/* GET about me page. */
+router.get('/about', function(req, res, next) {
+  res.render('about', { title: 'About Me',
+                      pageheader: 'About Page'
+   });
 });
 
-/* GET contact us page. */
+/* GET contact me page. */
 router.get('/contact', function(req, res, next) {
-  res.render('index', { title: 'Contact Us' });
+  res.render('contact', { title: 'Contact Me',
+                      pageheader: 'Contact Page'
+   });
 });
 
-/* GET products page. */
-router.get('/products', function(req, res, next) {
-  res.render('index', { title: 'Products' });
-});
-
-/* GET services page. */
-router.get('/services', function(req, res, next) {
-  res.render('index', { title: 'Services' });
+/* GET projects page. */
+router.get('/projects', function(req, res, next) {
+  res.render('projects', { title: 'Projects',
+                      pageheader: 'Projects Page'
+   });
 });
 
 module.exports = router;

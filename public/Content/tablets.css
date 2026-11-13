@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+nav
+{
+    background:linear-gradient(to right,#7766E3, #A066E3, transparent 100%);
+    margin-right: 300px;
+}
+
+body
+{
+    background:linear-gradient(to right, #8EB9FC, #AA8DFC);
+}
+
+h1
+{
+    color:#A066E3;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+address
+{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#657CE2;
+}
+
+.walle,.house,.net,.bear
+{
+    width:100%;
+}
+
+#roboth,.wallep,.renovationp,#networkh,.networkp,.bearp
+{
+    text-align: center;
+}
+
+#househ
+{
+    text-align: center;
+    font-size: 21px;
+}
+
+#bearh
+{
+    text-align: center;
+    font-size:23px;
+}
+
+#contacth
+{
+    color: #A066E3;
+}
+
+.formlabels
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#657CE2;
+    font-weight: bold;
+}
+
+#aboutp
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#657CE2;
+    font-weight: bold;
+}
