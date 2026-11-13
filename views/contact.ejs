@@ -17,26 +17,30 @@
     media="only screen and (max-width:480px)">
 </head>
 
-<h1 id="contacth">Contact Me</h1>
-<form action=mailto:justin.chan2@ontariotechu.net ?subject=Signup Form method="post"
-    enctype="text/plain" name="form">
-    <p class="formlabels">
-        <label for="name">Name</label><br>
-        <input type="text" name="name" size="32">
-    </p>
-    <p class="formlabels">
-        <label for="email">Email</label><br>
-        <input type="text" name="email" size="32">
-    </p>
-    <p class="formlabels">
-        <label for="phone">Phone Number</label><br>
-        <input type="tel" name="phone" pattern="[0-9]{10}" required>
-    </p>
-    <p class="formlabels">
-        <label for="comments">Comments</label><br>
-        <textarea name="comments" cols="60" rows="6"></textarea>
-    </p>
-    <p>
-        <input type="submit" value="Submit form"/>
-    </p>
-</form>
+<main>
+    <h1 id="contacth">Contact Me</h1>
+    <form action=mailto:justin.chan2@ontariotechu.net ?subject=Signup Form method="post"
+        enctype="text/plain" name="form">
+        <p class="formlabels">
+            <label for="name">Name</label><br>
+            <input type="text" name="name" size="32">
+        </p>
+        <p class="formlabels">
+            <label for="email">Email</label><br>
+            <input type="text" name="email" size="32">
+        </p>
+        <p class="formlabels">
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" name="phone" pattern="[0-9]{10}" required>
+        </p>
+        <p class="formlabels">
+            <label for="comments">Comments</label><br>
+            <textarea name="comments" cols="60" rows="6"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Submit form"/>
+        </p>
+    </form>
+</main>
+
+<%- include('partials/footer') %>

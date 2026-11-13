@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
-nav
+nav, footer
 {
     background:linear-gradient(to right,#7766E3, #A066E3, transparent 100%);
-    margin-right: 300px;
 }
 
 h1

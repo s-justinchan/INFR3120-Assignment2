@@ -16,25 +16,29 @@
     media="only screen and (max-width:480px)">
 </head>
 
-<h1 id="abouth">Introduction</h1>
-<p id="aboutp">
-    Hi, my name is Justin Chan and I am a 3rd year Networking and IT Security Student.
-    I switched to this program from Computer Science because I found Networking more interesting.
-    I am from Markham and my background is mainly Chinese and Filipino.
-    There were some Web Development courses that I took during my time in Computer Science, so I have some previous
-    knowledge about the Web and Script Programming course from the past.
-</p>
-<h1 id="abouth">Introduction Image</h1>
-<img src="/Assets/images/me.png" alt="Personal Image">
-<h1 id="abouth">Short Video</h1>
-<video 
-    controls
-    width="320" height="220" 
-    poster="/Assets/images/poster.png"
-    id="video"
-    preload
-    loop
-    autoplay muted>
-        <source src="/Assets/images/video.mp4" type="video/mp4">
-        <source src="/Assets/images/video.ogv" type="video/ogg">
-</video>
+<main>
+    <h1 id="abouth">Introduction</h1>
+    <p id="aboutp">
+        Hi, my name is Justin Chan and I am a 3rd year Networking and IT Security Student.
+        I switched to this program from Computer Science because I found Networking more interesting.
+        I am from Markham and my background is mainly Chinese and Filipino.
+        There were some Web Development courses that I took during my time in Computer Science, so I have some previous
+        knowledge about the Web and Script Programming course from the past.
+    </p>
+    <h1 id="abouth">Introduction Image</h1>
+    <img src="/Assets/images/me.png" alt="Personal Image">
+    <h1 id="abouth">Short Video</h1>
+    <video 
+        controls
+        width="320" height="220" 
+        poster="/Assets/images/poster.png"
+        id="video"
+        preload
+        loop
+        autoplay muted>
+            <source src="/Assets/images/video.mp4" type="video/mp4">
+            <source src="/Assets/images/video.ogv" type="video/ogg">
+    </video>
+</main>
+
+<%- include('partials/footer') %>
