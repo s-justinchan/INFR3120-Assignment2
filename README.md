@@ -8,3 +8,11 @@ In this assignment, **Bootstrap** was required for use within the pages. I used 
 
 The _footer_ was made to be similar to the rest of the page design and header. It uses classes from the navbar/header applied to it,
 so that the style is consistent across the whole page.
+
+Link to _navbar_ documentation: https://getbootstrap.com/docs/5.0/components/navbar/
+
+## font-awesome
+
+The **font-awesome** library was required for this assignment and was used for the icons in the navbar.
+
+Link to **font-awesome**: https://fontawesome.com/
